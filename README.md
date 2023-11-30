@@ -5,6 +5,8 @@
 1) Seurat (v4.3.0)
 2) rdist (v0.0.5)
 3) Monocle (v2.22.0)
+4) foreach (v1.5.2)
+5) doParallel (v1.0.17)
 
 ## Input
 1) run '01cluster_cells.r' to cluster cells and generate '.rds' data if you use 'filtered_feature_bc_matrix' from Cell Ranger output as input.
