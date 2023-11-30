@@ -20,6 +20,7 @@
    | orth2      | geneA2     | geneB2     | geneC2     | ... |
 
 ## Run pgDQ
+
 1）calculate subgenome divergence for all cells
 ```js
 Rscript 02divergence_cells.r /path/to/rds /path/to/orth
