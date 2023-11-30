@@ -40,7 +40,6 @@
    ```
    then, get the initial cluster from output 'pgDQ_initial_cluster.txt', and find the root state from trajectory plot:
    ![pic_cluster](https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_clusters.png)
-   [cluster]: https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_clusters.png
    ![pic_state](https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_states.png)
-   [state]:https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_states.png
-   ![cluster] ![state]
+
+   
