@@ -7,6 +7,7 @@
 3) Monocle (v2.22.0)
 4) foreach (v1.5.2)
 5) doParallel (v1.0.17)
+6) dplyr (v1.1.1)
 
 ## Input
 1) run '01cluster_cells.r' to cluster cells and generate '.rds' data if you use 'filtered_feature_bc_matrix' from Cell Ranger output as input.
