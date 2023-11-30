@@ -20,10 +20,11 @@
    | orth2      | geneA2     | geneB2     | geneC2     | ... |
 
 5) meristem marker genes as follows:
-   | gene1 | 
+   | gene1 |
+   | :---  |
    | gene2 | 
    | gene3 |
-   | gene4 |
+   | ...   |
 
 ## Run pgDQ
 
