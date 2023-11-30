@@ -66,7 +66,7 @@
    
 3) output of '03initial_cluster.r' is 'pgDQ_initial_cluster.txt'.
 
-4) output of '04plot_trajectory_monocle.r' is 'pgDQ_monocle.RData','pgDQ_monocle_trajectory_colored_by_cell_clusters.png' and 'pgDQ_monocle_trajectory_colored_by_state.png'.
+4) output of '04plot_trajectory_monocle.r' are 'pgDQ_monocle.RData','pgDQ_monocle_trajectory_colored_by_cell_clusters.png' and 'pgDQ_monocle_trajectory_colored_by_state.png'.
 
 5) output of '05pseudotime_of_cells.r' is 'pgDQ_monocle_pseudotime.xls'.
 
