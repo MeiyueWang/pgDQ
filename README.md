@@ -34,7 +34,9 @@
    ```
 2) select initial state and calculate pseudotime for all cells.
 
-   Firstly, we choose cell clusters with highest expression values of meristem marker genes as initial clusters.
+   Firstly, we choose cell cluster with highest expression values of meristem marker genes as initial cluster.
    ```js
    Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
    ```
+   then, get the initial cluster from output 'pgDQ_initial_cluster.txt', and find the root state from trajectory plot:
+   
