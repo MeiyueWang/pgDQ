@@ -29,13 +29,12 @@
 ## Run pgDQ
 
 1) calculate subgenome divergence for all cells.
-  ```js
-  Rscript 02divergence_cells.r /path/to/rds /path/to/orth
-  ```
+   ```js
+   Rscript 02divergence_cells.r /path/to/rds /path/to/orth
+   ```
 2) select initial state and calculate pseudotime for all cells.
 
-  Firstly, we choose cell clusters with highest expression values of meristem marker genes as initial clusters.
-
-  ```js
-  Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
-  ```
+   Firstly, we choose cell clusters with highest expression values of meristem marker genes as initial clusters.
+   ```js
+   Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
+   ```
