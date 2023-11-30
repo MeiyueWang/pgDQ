@@ -19,9 +19,19 @@
    | orth1      | geneA1     | geneB1     | geneC1     | ... |
    | orth2      | geneA2     | geneB2     | geneC2     | ... |
 
+5) meristem marker genes as follows:
+   | gene1 | 
+   | gene2 | 
+   | gene3 |
+   | gene4 |
+
 ## Run pgDQ
 
-1）calculate subgenome divergence for all cells
+1) calculate subgenome divergence for all cells.
 ```js
 Rscript 02divergence_cells.r /path/to/rds /path/to/orth
 ```
+2) select initial state and calculate pseudotime for all cells.
+   Firstly, we choose cell clusters with highest expression values of meristem marker genes as initial clusters.
+   ```js
+   Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
