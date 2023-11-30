@@ -9,5 +9,11 @@
 1) run '01cluster_cells.r' to cluster cells and generate '.rds' data if you use 'filtered_feature_bc_matrix' from Cell Ranger output as input.
 2) scRNA data in '.rds' format.
 3) 1v1 orthologous genes across subgenomes as follows:
-   | orthgroups | subgenome1 | subgenome2 | ... |
-   | :--------- | :--------- | :--------- | :-- |
+   
+   | orthgroups | subgenomeA | subgenomeB | subgenomeC | ... |
+   | :--------- | :--------- | :--------- | :--------- | :-- |
+   | orth1      | geneA1     | geneB1     | geneC1     | ... |
+   | orth2      | geneA2     | geneB2     | geneC2     | ... |
+
+## Run pgDQ
+
