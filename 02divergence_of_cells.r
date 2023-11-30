@@ -4,9 +4,6 @@ args <- commandArgs(T)
 scRNAin <- args[1]
 orthin <- args[2]
 orth <- read.table(orthin,sep = "\t",stringsAsFactors = F,header = T)
-orth$cs_A <- gsub("\\.[0-9]+","",orth$cs_A)
-orth$cs_B <- gsub("\\.[0-9]+","",orth$cs_B)
-orth$cs_D <- gsub("\\.[0-9]+","",orth$cs_D)
 rownames(orth) <- orth[[1]]
 scRNA <- readRDS(scRNAin)
 df <- as.data.frame(scRNA@assays$RNA@data)
