@@ -39,4 +39,6 @@
    Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
    ```
    then, get the initial cluster from output 'pgDQ_initial_cluster.txt', and find the root state from trajectory plot:
+   ![cluster](https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_clusters.png)
+   [cluster]: https://github.com/MeiyueWang/pgDQ/blob/main/trajectory_colored_by_clusters.png
    
