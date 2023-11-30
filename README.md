@@ -50,12 +50,32 @@
    ```
 3) divGene algorithm to calculate the indispensable scores for all orthologous gene groups.
    ```js
-   Rscript 06divGene.r /path/to/rds /path/to/orth
+   Rscript 06divGene.r /path/to/rds /path/to/orth n_cores
    ```
 
-##Output
+## Output
 
-1) 
+1) output of '01cluster_cells.r' is 'pgDQ_scRNA.rds'.
+   
+2) output of '02divergence_of_cells.r' is 'pgDQ_subgenome_divergence_of_all_cells.xls':
+   | V1    | V2   |
+   | :---- | :--- |
+   | cell1 | div1 | 
+   | cell2 | div2 |
+   | ...   | ...  |
+   
+3) output of '03initial_cluster.r' is 'pgDQ_initial_cluster.txt'.
 
+4) output of '04plot_trajectory_monocle.r' is 'pgDQ_monocle.RData','pgDQ_monocle_trajectory_colored_by_cell_clusters.png' and 'pgDQ_monocle_trajectory_colored_by_state.png'.
 
+5) output of '05pseudotime_of_cells.r' is 'pgDQ_monocle_pseudotime.xls'.
+
+6) output of '06divGene.r' is 'pgDQ_indispensable_scores_of_all_1v1orthologous_genes.xls':
+   | orthgroups    | subgenomeA | subgenomeB | subgenomeC | ... | pvalue | corr | IS |
+   | :------------ | :--------- | :--------- | :--------- | :-- | :----- | :--- | :- |
+   | orth1         | geneA1     | geneB1     | geneC1     | ... | p1     | corr1| IS1|   
+   | orth2         | geneA2     | geneB2     | geneC2     | ... | p2     | corr2| IS2|
+   | ...           | ...        | ...        | ...        | ... | ...    | ...  | ...|
+
+  
    
