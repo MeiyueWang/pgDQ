@@ -1,7 +1,7 @@
 # pgDQ
  Pseudo-genome divergence quantification for polyploid wheat
 
-##Pre-requisite
+## Pre-requisite
 1) Seurat (v4.3.0)
 2) 
 
