@@ -33,7 +33,6 @@
    Rscript 02divergence_cells.r /path/to/rds /path/to/orth
    ```
 2) select initial state and calculate pseudotime for all cells.
-
    Firstly, we choose cell cluster with highest expression values of meristem marker genes as initial cluster.
    ```js
    Rscript 03initial_cluster.r /path/to/rds /path/to/marker_genes
@@ -47,4 +46,14 @@
    ```js
    Rscript 05pseudotime_of_cells.r root_state
    ```
+3) divGene algorithm to calculate the indispensable scores for all orthologous gene groups.
+   ```js
+   Rscript 06divGene.r /path/to/rds /path/to/orth
+   ```
+
+##Output
+
+1) 
+
+
    
