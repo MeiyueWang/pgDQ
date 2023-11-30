@@ -3,7 +3,8 @@
 
 ## Pre-requisite
 1) Seurat (v4.3.0)
-2) 
+2) rdist (v0.0.5)
+3) 
 
 ## Input
 1) run '01cluster_cells.r' to cluster cells and generate '.rds' data if you use 'filtered_feature_bc_matrix' from Cell Ranger output as input.
