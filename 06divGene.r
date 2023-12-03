@@ -18,7 +18,7 @@ rownames(cds.data) <- cds.data$cells
 div <- read.table("pgDQ_subgenome_divergence_of_all_cells.xls",sep = "\t",stringsAsFactors = F,header = F)
 rownames(div) <- div$V1
 cds.data$divergence <- div[rownames(cds.data),"V2"]
-corr0 <- cor(cds.data$divergence,cds.data$Pseudotime,method = "spearman")
+#corr0 <- cor(cds.data$divergence,cds.data$Pseudotime,method = "spearman")
 scRNA <- readRDS(scRNAin)
 df <- as.data.frame(scRNA@assays$RNA@data)
 t <- nrow(orth)
@@ -52,7 +52,7 @@ mat <- matrix(df_out2,byrow = T,ncol = 3)
 mat <- as.data.frame(mat)
 mat$V2 <- as.numeric(mat$V2)
 mat$V3 <- as.numeric(mat$V3)
-mat$IS <- log10(sqrt((corr0-mat$V3)^2))
+mat$IS <- log10(1-mat$V3)
 colnames(mat) <- c("orthgroups","pvalue","corr","IS")
 colnames(orth)[1] <- "orthgroups"
 mat.j <- inner_join(orth,mat,by=c("orthgroups"="orthgroups"))
