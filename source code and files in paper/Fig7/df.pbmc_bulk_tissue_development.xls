@@ -1,0 +1,210 @@
+UMAP_1	UMAP_2	cluster	sample	tissue	tissue.h	age.h	no
+-4.70440688048396	-0.684358374438467	2	Sample_10	radicle	roots	seedling	1
+-4.89158024703059	-0.541518227420034	2	Sample_18	radicle	roots	seedling	1
+-4.92637314711604	-0.349246041140737	2	Sample_3A	radicle	roots	seedling	1
+-0.746737979994151	2.35888020578843	1	Sample_12	coleoptile	leaves/shoots	seedling	10
+-0.584860109434459	2.52171020094377	1	Sample_26	coleoptile	leaves/shoots	seedling	10
+-0.825015925512645	2.49521718803864	1	Sample_6A	coleoptile	leaves/shoots	seedling	10
+0.0681725510498554	2.19018541161042	1	Sample_11	stem axis	leaves/shoots	seedling	13
+-0.825023435697886	2.23625056330186	1	Sample_20	stem axis	leaves/shoots	seedling	13
+-0.134503864393565	2.58289347473603	1	Sample_9A	stem axis	leaves/shoots	seedling	13
+-0.0657744637587994	3.10345499102098	1	Sample_10R1	first leaf sheath	leaves/shoots	seedling	18
+-1.14488025818858	2.27922133985978	1	Sample_21	first leaf sheath	leaves/shoots	seedling	18
+0.0225550898453266	2.27742038551789	1	Sample_30	first leaf sheath	leaves/shoots	seedling	18
+-0.24474527751002	2.09706412140351	1	Sample_13R1	first leaf blade	leaves/shoots	seedling	20
+1.50814900483098	0.4495508510254	0	Sample_23	first leaf blade	leaves/shoots	seedling	20
+1.67149553383794	1.54409085098725	0	Sample_32	first leaf blade	leaves/shoots	seedling	20
+-4.71464075957331	-0.580873505435171	2	Sample_13	roots	roots	seedling	4
+-4.80736603652034	-0.500407711825552	2	Sample_33	roots	roots	seedling	4
+-4.57489957724604	-0.854275481066885	2	Sample_18A	roots	roots	seedling	4
+-2.39373567019496	1.13260362926942	1	Sample_19A	shoot apical meristem	leaves/shoots	seedling	11
+-2.51804068003688	0.329550011792002	2	Sample_20A	shoot apical meristem	leaves/shoots	seedling	11
+-2.53731080208811	0.707385285534678	2	Sample_21A	shoot apical meristem	leaves/shoots	seedling	11
+2.33898005570379	0.12559746090394	0	Sample_22B	third leaf blade	leaves/shoots	vegetative	22
+-0.444246315107676	2.56592105213624	1	Sample_23A	third leaf blade	leaves/shoots	vegetative	22
+2.26477561081853	0.669526799359141	0	Sample_24A	third leaf blade	leaves/shoots	vegetative	22
+-1.73318789218459	1.98595879856568	1	Sample_25A	third leaf sheath	leaves/shoots	vegetative	23
+-2.05516537343058	1.77079616371614	1	Sample_26A	third leaf sheath	leaves/shoots	vegetative	23
+-1.45112603221926	2.16873906437379	1	Sample_27A	third leaf sheath	leaves/shoots	vegetative	23
+-1.88654804852698	1.66363631073457	1	Sample_28A	roots	roots	vegetative	5
+-3.64500453387294	-2.01132656749267	2	Sample_29A	roots	roots	vegetative	5
+-3.35246326838526	-1.92689205821532	2	Sample_30A	roots	roots	vegetative	5
+-4.38184657012019	-0.412887350878897	2	Sample_15	root apical meristem	roots	vegetative	2
+-4.33650412474665	-0.708585039935293	2	Sample_32R2	root apical meristem	roots	vegetative	2
+-4.15971937094722	-0.520264164767446	2	Sample_33A	root apical meristem	roots	vegetative	2
+-4.6337322226623	-1.01593233760375	2	Sample_16	axillary roots	roots	vegetative	9
+-4.25464167510066	-0.680082575640859	2	Sample_35R1	axillary roots	roots	vegetative	9
+-4.74800648604426	-0.778250233493032	2	Sample_36A	axillary roots	roots	vegetative	9
+-1.93173043866548	1.61323736492616	1	Sample_37A	fifth leaf sheath	leaves/shoots	vegetative	24
+-1.76131876622233	1.76756606880647	1	Sample_38A	fifth leaf sheath	leaves/shoots	vegetative	24
+-1.89275710535142	1.9585920411728	1	Sample_39A	fifth leaf sheath	leaves/shoots	vegetative	24
+2.11890397156682	1.20626626793366	0	Sample_40A	fifth leaf blade	leaves/shoots	vegetative	26
+2.33834490860906	0.7449450332306	0	Sample_41A	fifth leaf blade	leaves/shoots	vegetative	26
+-0.930335425482127	2.12731884304505	1	Sample_42A	fifth leaf blade	leaves/shoots	vegetative	26
+0.688084460153249	-1.12342192348021	0	Sample_43A	first leaf sheath	leaves/shoots	vegetative	19
+0.0532817610641987	-1.19836022075194	3	Sample_44A	first leaf sheath	leaves/shoots	vegetative	19
+0.195170737161306	-1.07125164683837	3	Sample_45A	first leaf sheath	leaves/shoots	vegetative	19
+3.65392670716253	-1.05445648845214	0	Sample_46A	first leaf blade	leaves/shoots	vegetative	21
+3.42226586426702	-0.857907549700918	0	Sample_d11	first leaf blade	leaves/shoots	vegetative	21
+3.55495247925725	-1.00423456843871	0	Sample_d12	first leaf blade	leaves/shoots	vegetative	21
+-2.62338551198039	0.540175660290537	2	Sample_49A	shoot axis	leaves/shoots	vegetative	14
+-2.25240581546817	-0.565826908908071	2	Sample_50A	shoot axis	leaves/shoots	vegetative	14
+-2.64331664954219	-0.0905785721160792	2	Sample_51A	shoot axis	leaves/shoots	vegetative	14
+-2.32775416289363	0.901442750134287	2	Sample_52A	shoot apical meristem	leaves/shoots	vegetative	12
+-2.39140116487536	-0.611612574420156	2	Sample_53A	shoot apical meristem	leaves/shoots	vegetative	12
+-2.42743840132746	-0.307473913989248	2	Sample_54A	shoot apical meristem	leaves/shoots	vegetative	12
+-3.71848108683619	-1.71152140315551	2	Sample_55B	roots	roots	vegetative	6
+-3.774778269873	-1.62546898540038	2	Sample_56A	roots	roots	vegetative	6
+-3.9956182471374	-1.17709328349608	2	Sample_57A	roots	roots	vegetative	6
+-3.84463169489894	-0.616076962313833	2	Sample_58A	root apical meristem	roots	vegetative	3
+-3.84205474768672	-0.844053999743643	2	Sample_59A	root apical meristem	roots	vegetative	3
+-3.75904061709437	-0.758778588137808	2	Sample_60A	root apical meristem	roots	vegetative	3
+2.44476304139104	0.453538878598032	0	Sample_61A	flag leaf blade	leaves/shoots	reproductive	33
+2.36686406220403	1.04308198276979	0	Sample_62A	flag leaf blade	leaves/shoots	reproductive	33
+1.25199923600164	1.89712725464326	0	Sample_63A	flag leaf blade	leaves/shoots	reproductive	33
+2.30243334855047	-2.0985562961914	0	Sample_64A	fifth leaf sheath	leaves/shoots	reproductive	25
+0.0714195736786396	3.14252879355174	1	Sample_65A	fifth leaf sheath	leaves/shoots	reproductive	25
+0.200653410806325	3.11016772572022	1	Sample_66A	fifth leaf sheath	leaves/shoots	reproductive	25
+2.91227517212835	-0.701119915805044	0	Sample_67A	fifth leaf blade	leaves/shoots	reproductive	27
+2.48721108521428	-0.167458311877432	0	Sample_68A	fifth leaf blade	leaves/shoots	reproductive	27
+2.18758950318303	0.907947047390757	0	Sample_69A	fifth leaf blade	leaves/shoots	reproductive	27
+-2.35622962628398	-0.491099612078848	2	Sample_70A	shoot axis	leaves/shoots	reproductive	15
+-2.52563347731623	-0.331008927188101	2	Sample_71A	shoot axis	leaves/shoots	reproductive	15
+-2.43890073214564	0.964544995465098	2	Sample_72A	shoot axis	leaves/shoots	reproductive	15
+-3.28647937689814	-2.25724436458129	2	Sample_73A	roots	roots	reproductive	7
+-3.22407271777186	-2.00285984691161	2	Sample_74A	roots	roots	reproductive	7
+-3.34550728713069	-2.09754635509032	2	Sample_76A	roots	roots	reproductive	7
+3.4463938244721	0.34112594906312	0	Sample_75A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	34
+1.52407751168218	2.01895485702973	0	Sample_77A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	34
+1.73389682854619	1.69346772018891	0	Sample_78A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	34
+3.18795523728338	0.997114642300425	0	Sample_79A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	29
+2.90470824326482	1.29395054165345	0	Sample_80A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	29
+3.0073011883637	0.942737563290415	0	Sample_81A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	29
+1.38463006104436	1.85974775139314	0	Sample_82A	flag leaf blade night (+0.25h) 07:15	leaves/shoots	reproductive	35
+1.45647368515935	1.76783273998719	0	Sample_83B	flag leaf blade night (+0.25h) 07:15	leaves/shoots	reproductive	35
+1.5499561795136	1.95242093388062	0	Sample_84A	flag leaf blade night (+0.25h) 07:15	leaves/shoots	reproductive	35
+3.10119185532537	1.12432096783143	0	Sample_85B	fifth leaf blade night (+0.25h) 22:15	leaves/shoots	reproductive	30
+2.73861346329656	1.16929434124452	0	Sample_86A	fifth leaf blade night (+0.25h) 22:15	leaves/shoots	reproductive	30
+3.15059504593816	0.890838130154429	0	Sample_87A	fifth leaf blade night (+0.25h) 22:15	leaves/shoots	reproductive	30
+1.83974824036565	-1.06490256007689	0	Sample_88A	leaf ligule	leaves/shoots	reproductive	47
+2.00602707947698	-0.788223997912588	0	Sample_89B	leaf ligule	leaves/shoots	reproductive	47
+1.97718892182317	-1.24635054286498	0	Sample_90A	leaf ligule	leaves/shoots	reproductive	47
+2.52628407563176	-1.44768931087035	0	Sample_91A	flag leaf sheath	leaves/shoots	reproductive	43
+2.58185753907171	-1.63488651927489	0	Sample_92A	flag leaf sheath	leaves/shoots	reproductive	43
+1.40502891625371	2.13752590004426	0	Sample_93A	flag leaf sheath	leaves/shoots	reproductive	43
+2.65950474823919	-0.457869545779409	0	Sample_94B	flag leaf blade	leaves/shoots	reproductive	36
+2.39993271912542	-0.189794556460562	0	Sample_95A	flag leaf blade	leaves/shoots	reproductive	36
+2.68944726075139	-0.568882242999258	0	Sample_96A	flag leaf blade	leaves/shoots	reproductive	36
+-2.59777756844554	-0.424781576953115	2	Sample_97A	shoot axis	leaves/shoots	reproductive	16
+-2.83374806557688	-0.309156433901968	2	Sample_98A	shoot axis	leaves/shoots	reproductive	16
+-1.97012116451654	-0.873710409960928	2	Sample_99A	shoot axis	leaves/shoots	reproductive	16
+-1.98792761628422	2.9884308416031	1	Sample_100A	spike	spike	reproductive	54
+-2.07317806099448	2.45388285700303	1	Sample_101A	spike	spike	reproductive	54
+-2.10031301592383	2.42977480474931	1	Sample_102A	spike	spike	reproductive	54
+-3.62402655993495	-2.08335425075072	2	Sample_103A	roots	roots	reproductive	8
+-3.75605513964686	-2.30505396541137	2	Sample_104B	roots	roots	reproductive	8
+-3.44201507483515	-2.17741324122924	2	Sample_105B	roots	roots	reproductive	8
+2.68212018097844	-2.22345425303954	0	Sample_106A	flag leaf sheath	leaves/shoots	reproductive	44
+3.00262293900457	-1.50850273784179	0	Sample_107B	flag leaf sheath	leaves/shoots	reproductive	44
+3.10658917511907	-1.59159971889037	0	Sample_108A	flag leaf sheath	leaves/shoots	reproductive	44
+2.90531621064153	-1.8429091137268	0	Sample_109A	flag leaf blade	leaves/shoots	reproductive	37
+2.88592896546331	-0.843584791979971	0	Sample_110A	flag leaf blade	leaves/shoots	reproductive	37
+2.79539904679265	-0.559083716235342	0	Sample_111B	flag leaf blade	leaves/shoots	reproductive	37
+0.191137886895803	-1.93260981257934	0	Sample_112B	Internode #2	leaves/shoots	reproductive	48
+0.0830541619202168	-1.79807116206664	0	Sample_113B	Internode #2	leaves/shoots	reproductive	48
+0.545510149850515	-1.69255472835082	0	Sample_114B	Internode #2	leaves/shoots	reproductive	48
+0.33394227112737	3.1816086934514	1	Sample_115A	peduncle	leaves/shoots	reproductive	51
+0.890093899621633	2.66011051718217	0	Sample_116A	peduncle	leaves/shoots	reproductive	51
+0.793476916207936	2.50689427439195	1	Sample_117A	peduncle	leaves/shoots	reproductive	51
+-1.82232520048413	3.45564903203469	1	Sample_118A	spike	spike	reproductive	55
+-1.69152215932402	3.50631530467492	1	Sample_119B	spike	spike	reproductive	55
+-1.8075558549622	3.27690517041904	1	Sample_120A	spike	spike	reproductive	55
+-1.39307835017237	3.68554659072381	1	Sample_121A	spikelets	spike	reproductive	56
+-1.80578311596903	3.44410019997579	1	Sample_122A	spikelets	spike	reproductive	56
+-1.51115491305384	3.51622585836869	1	Sample_123A	spikelets	spike	reproductive	56
+4.2964948185822	-2.63834788020629	3	Sample_124A	flag leaf sheath	leaves/shoots	reproductive	45
+4.83108601654973	-2.58154083903808	3	Sample_125A	flag leaf sheath	leaves/shoots	reproductive	45
+4.72155652131048	-2.66811300929564	3	Sample_126A	flag leaf sheath	leaves/shoots	reproductive	45
+4.01839385117498	-1.92504336055297	3	Sample_127A	flag leaf blade	leaves/shoots	reproductive	38
+4.21651015366521	-1.62055613215941	3	Sample_128A	flag leaf blade	leaves/shoots	reproductive	38
+4.36788115586248	-1.73111607249755	3	Sample_129A	flag leaf blade	leaves/shoots	reproductive	38
+4.02514491166082	-1.98314549144286	3	Sample_130A	fifth leaf blade	leaves/shoots	reproductive	28
+4.40464863862005	-2.03919197734374	3	Sample_131A	fifth leaf blade	leaves/shoots	reproductive	28
+4.48449931229558	-1.63304783519286	3	Sample_132A	fifth leaf blade	leaves/shoots	reproductive	28
+0.579953051461843	2.8467289048813	1	Sample_133A	peduncle	leaves/shoots	reproductive	52
+0.768112517251638	2.77794964496118	1	Sample_134A	peduncle	leaves/shoots	reproductive	52
+0.476191140069631	3.06326956931573	1	Sample_135A	peduncle	leaves/shoots	reproductive	52
+0.264471150293019	-2.14917494472045	0	Sample_136A	Internode #2	leaves/shoots	reproductive	49
+0.320525742425588	-1.96512343104857	0	Sample_137B	Internode #2	leaves/shoots	reproductive	49
+0.66748604859319	-1.59835459407348	0	Sample_138A	Internode #2	leaves/shoots	reproductive	49
+2.8140376576325	0.194221003689585	0	Sample_139A	awns	spike	reproductive	57
+2.61841282929387	0.0963857013366796	0	Sample_140A	awns	spike	reproductive	57
+2.84224925126043	0.133501752056894	0	Sample_141A	awns	spike	reproductive	57
+1.53858981217351	-2.97441937144774	0	Sample_142A	glumes	spike	reproductive	59
+1.56597385491338	-2.95479466136474	0	Sample_143A	glumes	spike	reproductive	59
+1.36636219109502	-2.86296726878661	0	Sample_144B	glumes	spike	reproductive	59
+1.65596780861821	-3.33435465510863	0	Sample_157A	lemma	spike	reproductive	61
+1.65194401825872	-3.40401293452758	0	Sample_158A	lemma	spike	reproductive	61
+1.43076691712346	-3.20824648555297	0	Sample_159B	lemma	spike	reproductive	61
+-3.8254419795135	2.60860805098039	1	Sample_160A	anther	spike	reproductive	63
+-3.90308525477442	2.72155035916787	1	Sample_161A	anther	spike	reproductive	63
+-3.67709889327082	2.6359904247902	1	Sample_162A	anther	spike	reproductive	63
+-2.85458793555293	2.28537337366563	1	Sample_163A	stigma & ovary	spike	reproductive	64
+-2.67079671536479	2.04998753849488	1	Sample_164A	stigma & ovary	spike	reproductive	64
+-2.72079791937861	2.2678173023842	1	Sample_165A	stigma & ovary	spike	reproductive	64
+4.14721140946355	-0.730475680194082	3	Sample_166A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	39
+4.15174708451238	-1.17711664851684	3	Sample_167A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	39
+3.86846432770696	-0.372094647250357	0	Sample_168A	flag leaf blade night (-0.25h) 06:45	leaves/shoots	reproductive	39
+4.6548579701325	-1.14076115306396	3	Sample_169A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	31
+4.47869095887151	-0.851134077868643	3	Sample_170A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	31
+4.55327353562322	-0.782392279467764	3	Sample_171A	fifth leaf blade night (-0.25h) 21:45	leaves/shoots	reproductive	31
+4.42898163880315	-2.8323300045349	3	Sample_172A	flag leaf sheath	leaves/shoots	reproductive	46
+4.95027909363714	-2.7428171795227	3	Sample_173A	flag leaf sheath	leaves/shoots	reproductive	46
+4.51792082871404	-2.79162098582763	3	Sample_174A	flag leaf sheath	leaves/shoots	reproductive	46
+4.3585351475617	-2.25517155345458	3	Sample_175A	flag leaf blade	leaves/shoots	reproductive	40
+5.01416621293035	-2.38692499812621	3	Sample_176A	flag leaf blade	leaves/shoots	reproductive	40
+4.667675352945	-2.27001930888671	3	Sample_177A	flag leaf blade	leaves/shoots	reproductive	40
+-0.739262484655711	-1.66818119700927	2	Sample_178A	shoot axis	leaves/shoots	reproductive	17
+-0.0941384068587749	-2.1771147411682	0	Sample_179A	shoot axis	leaves/shoots	reproductive	17
+-0.375991248236033	-1.85736920054931	2	Sample_180A	shoot axis	leaves/shoots	reproductive	17
+4.81373963440862	-1.82988335307616	3	Sample_181A	fifth leaf blade (senescence)	leaves/shoots	reproductive	32
+4.61823639954534	-2.17430807765502	3	Sample_182A	fifth leaf blade (senescence)	leaves/shoots	reproductive	32
+5.12601838196721	-2.30026032145995	3	Sample_183A	fifth leaf blade (senescence)	leaves/shoots	reproductive	32
+0.921769953622487	-2.20190312083739	0	Sample_184A	peduncle	leaves/shoots	reproductive	53
+0.972230053796437	-1.73087240870971	0	Sample_185A	peduncle	leaves/shoots	reproductive	53
+1.15533194626775	-1.85401417430419	0	Sample_186A	peduncle	leaves/shoots	reproductive	53
+0.492623425378469	-1.92320372279662	0	Sample_188B	Internode #2	leaves/shoots	reproductive	50
+0.384705401315358	-2.38085438426513	0	Sample_189B	Internode #2	leaves/shoots	reproductive	50
+3.78532300080266	-2.49581886943358	3	Sample_190A	awns	spike	reproductive	58
+3.09582505310979	-2.50794912990111	0	Sample_191A	awns	spike	reproductive	58
+2.62474236573186	-2.53431774791259	0	Sample_192A	awns	spike	reproductive	58
+1.94013605202642	-2.80720020946044	0	Sample_193A	glumes	spike	reproductive	60
+1.96594939316716	-2.82096792872924	0	Sample_194A	glumes	spike	reproductive	60
+1.81148943985906	-3.0387680691101	0	Sample_195A	glumes	spike	reproductive	60
+2.19657454575506	-2.97444130595702	0	Sample_196A	lemma	spike	reproductive	62
+2.08455023850408	-2.75854422267455	0	Sample_197A	lemma	spike	reproductive	62
+2.07868657196966	-3.15673901256103	0	Sample_198A	lemma	spike	reproductive	62
+-4.93163790617976	3.11879965547544	1	Sample_199A	grain	grain	reproductive	65
+-5.24308004294429	2.9289235014103	1	Sample_200A	grain	grain	reproductive	65
+-4.90962734137568	3.04913110915643	1	Sample_201A	grain	grain	reproductive	65
+4.46743426407781	-2.28523327525634	3	Sample_202A	flag leaf blade (senescence)	leaves/shoots	reproductive	41
+4.94596133316961	-2.02591253932494	3	Sample_203A	flag leaf blade (senescence)	leaves/shoots	reproductive	41
+4.71410117234197	-1.61201454814452	3	Sample_204A	flag leaf blade (senescence)	leaves/shoots	reproductive	41
+-5.31832899962458	3.04532395187837	1	Sample_205A	grain	grain	reproductive	66
+-5.7041782370666	2.80115835253221	1	Sample_206A	grain	grain	reproductive	66
+-5.60505499754939	2.73586518947106	1	Sample_207A	grain	grain	reproductive	66
+-5.10416903410945	1.94529591385346	1	Sample_208A	grain	grain	reproductive	67
+-5.48347344313655	2.78185702744943	1	Sample_209A	grain	grain	reproductive	67
+-5.37373461638484	2.5611448127411	1	Sample_210A	grain	grain	reproductive	67
+-5.65197672759089	2.55841325108033	1	Sample_211B	endosperm	grain	reproductive	69
+-5.47087302123103	2.53296540562135	1	Sample_212A	endosperm	grain	reproductive	69
+-5.68448295508418	2.73952101055604	1	Sample_213A	endosperm	grain	reproductive	69
+-4.84449925337825	2.02229200188142	1	Sample_214A	embryo proper	grain	reproductive	70
+-4.86403336440119	2.12055896107179	1	Sample_215A	embryo proper	grain	reproductive	70
+-4.97416820441279	2.27030150476914	1	Sample_216A	embryo proper	grain	reproductive	70
+-5.2488023272613	2.40096156183702	1	Sample_217B	grain	grain	reproductive	68
+-5.00228919898066	2.25443939749223	1	Sample_218A	grain	grain	reproductive	68
+-4.80618610297236	2.27972905222398	1	Sample_219A	grain	grain	reproductive	68
+5.02230391587224	-1.44626928981322	3	Sample_223B	flag leaf blade (senescence)	leaves/shoots	reproductive	42
+5.03688035096135	-1.49905516322631	3	Sample_224A	flag leaf blade (senescence)	leaves/shoots	reproductive	42
+4.92978940094915	-1.19702078517455	0	Sample_225A	flag leaf blade (senescence)	leaves/shoots	reproductive	42
