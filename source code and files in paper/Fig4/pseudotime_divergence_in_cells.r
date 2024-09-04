@@ -1,0 +1,21 @@
+library(Seurat)
+orth <- read.table("Orthogroups_CS_ABD_1v1.txt",sep = "\t",stringsAsFactors = F,header = T)
+orth$cs_A <- gsub("\\.[0-9]+","",orth$cs_A)
+orth$cs_B <- gsub("\\.[0-9]+","",orth$cs_B)
+orth$cs_D <- gsub("\\.[0-9]+","",orth$cs_D)
+CS_scRNA <- readRDS("CS_mergereps.rds")
+df <- as.data.frame(CS_scRNA@assays$RNA@data)
+df_A <- df[orth$cs_A,];colnames(df_A) <- paste(colnames(df_A),"A",sep = "_")
+df_B <- df[orth$cs_B,];colnames(df_B) <- paste(colnames(df_B),"B",sep = "_")
+df_D <- df[orth$cs_D,];colnames(df_D) <- paste(colnames(df_D),"D",sep = "_")
+df_ABD <- cbind(df_A,df_B,df_D)
+rownames(df_ABD) <- orth$groups
+df_ABD[is.na(df_ABD)] <- 0
+df.sel <- data.frame(CS_scRNA$seurat_clusters,stringsAsFactors = F)
+df.sel$CS_scRNA.seurat_clusters <- as.character(df.sel$CS_scRNA.seurat_clusters)
+df.sel$cell <- rownames(df.sel)
+dpgDQ <- apply(df.sel,1,function(x){c <- as.character(x["cell"]);r <- rdist(rbind(c(df_ABD[[paste(c,"A",sep = "_")]]),c(df_ABD[[paste(c,"B",sep = "_")]])))+rdist(rbind(c(df_ABD[[paste(c,"A",sep = "_")]]),c(df_ABD[[paste(c,"D",sep = "_")]])))+rdist(rbind(c(df_ABD[[paste(c,"B",sep = "_")]]),c(df_ABD[[paste(c,"D",sep = "_")]])));return(r)})
+div <- data.frame(dpgDQ,stringsAsFactors = F)
+pt <- read.table("pgDQ_monocle_pseudotime.xls",sep = "\t",stringsAsFactors = F,header = T)
+pt$divergence <- div[pt$cells,"dpgDQ"]
+write.table(pt,"pseudotime_divergence_in_cells.xls",row.names = F,col.names = T,sep = "\t",quote = F)
