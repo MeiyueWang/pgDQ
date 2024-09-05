@@ -1,0 +1,35 @@
+library(SoupX)
+library(Seurat)
+library(harmony)
+library(DoubletFinder)
+library(ggplot2)
+sc_rep1.data <- load10X("CS_singlecell_rep1_cellranger_chrC_chrM")
+sc_rep1.rho <- autoEstCont(sc_rep1.data)
+sc_rep1.out <- adjustCounts(sc_rep1.rho)
+sc_rep2.data <- load10X("CS_singlecell_rep2_cellranger_chrC_chrM")
+sc_rep2.rho <- autoEstCont(sc_rep2.data)
+sc_rep2.out <- adjustCounts(sc_rep2.rho)
+sc_rep1 <- CreateSeuratObject(counts = sc_rep1.out,project="rep1",min.cells=3)
+sc_rep2 <- CreateSeuratObject(counts = sc_rep2.out,project="rep2",min.cells=3)
+sc <- merge(x=sc_rep1,y=sc_rep2)
+sc[["percent.mt"]] <- PercentageFeatureSet(sc,pattern = "^Mitochondria")
+#sc[["percent.cl"]] <- PercentageFeatureSet(sc,pattern = "^Chloroplast")
+
+
+p1 <- VlnPlot(sc, features = c("nFeature_RNA", "nCount_RNA","percent.mt"), ncol = 3)
+ggsave("nFeature_nCount_before_QC.pdf",p1,width = 7.46,height = 5.14,dpi = 300)
+#FeatureScatter(sc, feature1 = "nCount_RNA", feature2 = "percent.mt")
+p2 <- FeatureScatter(sc, feature1 = "nCount_RNA", feature2 = "nFeature_RNA",pt.size = 0.5)
+ggsave("nFeature_nCount_scatter_before_QC.pdf",p2,width = 4.77,height = 4.03,dpi = 300)
+#FeatureScatter(sc, feature1 = "nFeature_RNA",feature2 = "percent.mt")
+
+
+sc1 <- subset(sc, subset = nFeature_RNA > 500 & nFeature_RNA < 10000)
+sc1 <- subset(sc1, subset = nCount_RNA > 500 & nCount_RNA < 20000)
+sc1 <- subset(sc1, subset = percent.mt < 2)
+
+
+p3 <- VlnPlot(sc1, features = c("nFeature_RNA", "nCount_RNA","percent.mt"), ncol = 3)
+ggsave("nFeature_nCount_after_QC.pdf",p3,width = 7.46,height = 5.14,dpi = 300)
+p4 <- FeatureScatter(sc1, feature1 = "nCount_RNA", feature2 = "nFeature_RNA",pt.size = 0.5)
+ggsave("nFeature_nCount_scatter_after_QC.pdf",p4,width = 4.77,height = 4.03,dpi = 300)
